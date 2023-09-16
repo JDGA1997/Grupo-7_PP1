@@ -5,9 +5,12 @@
 ## Profesor: Narciso Perez
 
 ## Integrantes
-- [Bellon, Federico Fabian](https://github.com/fedevricobellon) - Aula 2
-- [Candia, Tatiana Gisel](https://github.com/tati2108) - Aula 2
-- [Cattaneo, Romina](https://github.com/romica44) - Aula 1
-- [Gonzalez Antoniazzi, Juan Diego](https://github.com/JDGA1997) - Aula 1
-- [Perez, Jon Francis ](https://github.com/jfperez-data) - Aula 1
-- [Pantaleff, Maximiliano](https://github.com/Maxi-009) - Aula 1
+
+| Nombre          | Apellido            | GitHub                                                | Sala |
+|-----------------|---------------------|-------------------------------------------------------|------|
+| Federico Fabian | Bellon              | [fedevricobellon](https://github.com/fedevricobellon) |   2  |
+| Jon Francis     | Perez               | [jfperez-data](https://github.com/jfperez-data)       |   1  |
+| Juan Diego      | González Antoniazzi | [JDGA1997](https://github.com/JDGA1997)               |   1  |
+| Maximiliano     | Pantaleff           | [Maxi-009](https://github.com/Maxi-009)               |   1  |
+| Romina          | Cattaneo            | [romica44](https://github.com/romica44)               |   1  |
+| Tatiana Gisel   | Candia              | [tati2108](https://github.com/tati2108)               |   2  |
