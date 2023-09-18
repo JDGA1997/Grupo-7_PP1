@@ -2,7 +2,12 @@
 
 #  Practica Profesionalizante 1 - Cohorte 2022 - GRUPO 7
 
-## Profesor: Narciso Perez
+## Profesores: 
+
+### - Narciso Perez
+### - Carlos Charletti
+### - Hector Prado
+
 
 ## Integrantes
 
