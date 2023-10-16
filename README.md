@@ -19,3 +19,7 @@
 | Maximiliano     | Pantaleff           | [Maxi-009](https://github.com/Maxi-009)               |   1  |
 | Romina          | Cattaneo            | [romica44](https://github.com/romica44)               |   1  |
 | Tatiana Gisel   | Candia              | [tati2108](https://github.com/tati2108)               |   2  |
+
+## Trello
+
+[Grupo N°7](https://trello.com/b/fYzDHRBF/grupo-n7-tscdia)
