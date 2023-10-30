@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/14UKFVYLVty2wFb8g-qZjAoNEodpFnI3D
 """
 
-from google.colab import files
-files.upload()
+# from google.colab import files
+# files.upload()
 
 import pandas as pd
 
@@ -26,7 +26,7 @@ print(data.describe())
 import pandas as pd
 
 # Carga de datos desde el archivo CSV
-data = pd.read_csv('ventas_electronica.csv')
+data = pd.read_csv('../../ventas_electronica.csv')
 
 # Información general del conjunto de datos
 print("Información general del conjunto de datos:")
