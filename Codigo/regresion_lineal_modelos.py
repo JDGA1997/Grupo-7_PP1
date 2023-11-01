@@ -77,3 +77,25 @@ y2_pred = model2.predict(X2_test)
 r2_2 = r2_score(y2_test, y2_pred)
 print(f'R^2 Score (Modelo 2): {r2_2:.2f}')
 
+
+#SE CREA UN MODELO DE REGRESION LASSO CON EL MODELO 2 QUE ES EL SELECCIONADO Y SE LE REALIZA LA HIPERPARAMETRIZACION
+
+from sklearn.linear_model import Lasso
+from sklearn.model_selection import GridSearchCV
+
+# Modelo Lasso
+lasso_model = Lasso(alpha=1.0)  # Puedes ajustar el valor de alpha según tus necesidades
+lasso_model.fit(X2_train, y2_train)
+y2_lasso_pred = lasso_model.predict(X2_test)
+r2_lasso = r2_score(y2_test, y2_lasso_pred)
+print(f'R^2 Score (Modelo Lasso): {r2_lasso:.2f}')
+
+# Búsqueda de hiperparámetros para el modelo Lasso
+param_grid = {'alpha': [0.1, 0.01, 0.001, 0.0001]}
+lasso_model = Lasso()
+lasso_grid_search = GridSearchCV(lasso_model, param_grid, scoring='r2', cv=5)
+lasso_grid_search.fit(X2_train, y2_train)
+
+# Imprime el mejor valor de alpha para el modelo Lasso
+best_alpha = lasso_grid_search.best_params_['alpha']
+print(f'El mejor valor de alpha para el modelo Lasso es: {best_alpha}')
